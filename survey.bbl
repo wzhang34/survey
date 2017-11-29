@@ -1,0 +1,232 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{14}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Clevert, Unterthiner, and Hochreiter}{Clevert
+  et~al\mbox{.}}{2015}]%
+        {journals/corr/ClevertUH15}
+\bibfield{author}{\bibinfo{person}{Djork-Arné Clevert},
+  \bibinfo{person}{Thomas Unterthiner}, {and} \bibinfo{person}{Sepp
+  Hochreiter}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Fast and Accurate Deep Network Learning by
+  Exponential Linear Units (ELUs).}
+\newblock \bibinfo{journal}{{\em CoRR\/}}  \bibinfo{volume}{abs/1511.07289}
+  (\bibinfo{year}{2015}).
+\newblock
+\showURL{%
+\url{http://dblp.uni-trier.de/db/journals/corr/corr1511.html#ClevertUH15}}
+
+
+\bibitem[\protect\citeauthoryear{Glorot and Bengio}{Glorot and Bengio}{2010}]%
+        {GlorotAISTATS2010}
+\bibfield{author}{\bibinfo{person}{Xavier Glorot} {and} \bibinfo{person}{Yoshua
+  Bengio}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Understanding the difficulty of training deep
+  feedforward neural networks}. In \bibinfo{booktitle}{{\em JMLR W\&CP:
+  Proceedings of the Thirteenth International Conference on Artificial
+  Intelligence and Statistics (AISTATS 2010)}}, Vol.~\bibinfo{volume}{9}.
+  \bibinfo{pages}{249--256}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hinton}{Hinton}{[n. d.]}]%
+        {Hinton_rectifiedlinear}
+\bibfield{author}{\bibinfo{person}{Geoffrey~E. Hinton}.} \bibinfo{year}{[n.
+  d.]}\natexlab{}.
+\newblock \bibinfo{title}{Rectified Linear Units Improve Restricted Boltzmann
+  Machines Vinod Nair}.
+\newblock   (\bibinfo{year}{[n. d.]}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ioffe and Szegedy}{Ioffe and Szegedy}{2015}]%
+        {icml2015_ioffe15}
+\bibfield{author}{\bibinfo{person}{Sergey Ioffe} {and}
+  \bibinfo{person}{Christian Szegedy}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Batch Normalization: Accelerating Deep Network
+  Training by Reducing Internal Covariate Shift}. In \bibinfo{booktitle}{{\em
+  Proceedings of the 32nd International Conference on Machine Learning
+  (ICML-15)}}, \bibfield{editor}{\bibinfo{person}{David Blei} {and}
+  \bibinfo{person}{Francis Bach}} (Eds.). \bibinfo{publisher}{JMLR Workshop and
+  Conference Proceedings}, \bibinfo{pages}{448--456}.
+\newblock
+\showURL{%
+\url{http://jmlr.org/proceedings/papers/v37/ioffe15.pdf}}
+
+
+\bibitem[\protect\citeauthoryear{Krizhevsky, Sutskever, and Hinton}{Krizhevsky
+  et~al\mbox{.}}{2012}]%
+        {NIPS2012_4824}
+\bibfield{author}{\bibinfo{person}{Alex Krizhevsky}, \bibinfo{person}{Ilya
+  Sutskever}, {and} \bibinfo{person}{Geoffrey~E Hinton}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{ImageNet Classification with Deep Convolutional
+  Neural Networks}.
+\newblock In \bibinfo{booktitle}{{\em Advances in Neural Information Processing
+  Systems 25}}, \bibfield{editor}{\bibinfo{person}{F.~Pereira},
+  \bibinfo{person}{C.~J.~C. Burges}, \bibinfo{person}{L.~Bottou}, {and}
+  \bibinfo{person}{K.~Q. Weinberger}} (Eds.). \bibinfo{publisher}{Curran
+  Associates, Inc.}, \bibinfo{pages}{1097--1105}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{LeCun, Boser, Denker, Henderson, Howard,
+  Hubbard, and Jackel}{LeCun et~al\mbox{.}}{1989}]%
+        {LeCun:1989:BAH:1351079.1351090}
+\bibfield{author}{\bibinfo{person}{Y. LeCun}, \bibinfo{person}{B. Boser},
+  \bibinfo{person}{J.~S. Denker}, \bibinfo{person}{D. Henderson},
+  \bibinfo{person}{R.~E. Howard}, \bibinfo{person}{W. Hubbard}, {and}
+  \bibinfo{person}{L.~D. Jackel}.} \bibinfo{year}{1989}\natexlab{}.
+\newblock \showarticletitle{Backpropagation Applied to Handwritten Zip Code
+  Recognition}.
+\newblock \bibinfo{journal}{{\em Neural Comput.\/}} \bibinfo{volume}{1},
+  \bibinfo{number}{4} (\bibinfo{date}{Dec.} \bibinfo{year}{1989}),
+  \bibinfo{pages}{541--551}.
+\newblock
+\showISSN{0899-7667}
+\showDOI{%
+\url{https://doi.org/10.1162/neco.1989.1.4.541}}
+
+
+\bibitem[\protect\citeauthoryear{Maas, Hannun, and Ng}{Maas
+  et~al\mbox{.}}{2013}]%
+        {Maas13rectifiernonlinearities}
+\bibfield{author}{\bibinfo{person}{Andrew~L. Maas}, \bibinfo{person}{Awni~Y.
+  Hannun}, {and} \bibinfo{person}{Andrew~Y. Ng}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Rectifier nonlinearities improve neural network
+  acoustic models}. In \bibinfo{booktitle}{{\em in ICML Workshop on Deep
+  Learning for Audio, Speech and Language Processing}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Mao, Shen, and Yang}{Mao
+  et~al\mbox{.}}{2016}]%
+        {NIPS2016}
+\bibfield{author}{\bibinfo{person}{Xiao-Jiao Mao}, \bibinfo{person}{Chunhua
+  Shen}, {and} \bibinfo{person}{Yu-Bin Yang}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Image Restoration Using Very Deep Fully
+  Convolutional Encoder-Decoder Networks with Symmetric Skip Connections}. In
+  \bibinfo{booktitle}{{\em Advances in Neural Information Processing Systems
+  (NIPS'16)}}.
+\newblock
+\showeprint{1603.09056}
+\showURL{%
+\url{http://papers.nips.cc/paper/6172-image-restoration-using-very-deep-convolutional-encoder-decoder-networks-with-symmetric-skip-connections.pdf}}
+
+
+\bibitem[\protect\citeauthoryear{Radford, Metz, and Chintala}{Radford
+  et~al\mbox{.}}{2015}]%
+        {dcgan}
+\bibfield{author}{\bibinfo{person}{Alec Radford}, \bibinfo{person}{Luke Metz},
+  {and} \bibinfo{person}{Soumith Chintala}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Unsupervised Representation Learning with Deep
+  Convolutional Generative Adversarial Networks}.
+\newblock \bibinfo{journal}{{\em CoRR\/}}  \bibinfo{volume}{abs/1511.06434}
+  (\bibinfo{year}{2015}).
+\newblock
+\showURL{%
+\url{http://arxiv.org/abs/1511.06434}}
+
+
+\bibitem[\protect\citeauthoryear{Scherer, M\"{u}ller, and Behnke}{Scherer
+  et~al\mbox{.}}{2010}]%
+        {Scherer:2010:EPO:1886436.1886447}
+\bibfield{author}{\bibinfo{person}{Dominik Scherer}, \bibinfo{person}{Andreas
+  M\"{u}ller}, {and} \bibinfo{person}{Sven Behnke}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Evaluation of Pooling Operations in Convolutional
+  Architectures for Object Recognition}. In \bibinfo{booktitle}{{\em
+  Proceedings of the 20th International Conference on Artificial Neural
+  Networks: Part III}} {\em (\bibinfo{series}{ICANN'10})}.
+  \bibinfo{publisher}{Springer-Verlag}, \bibinfo{address}{Berlin, Heidelberg},
+  \bibinfo{pages}{92--101}.
+\newblock
+\showISBNx{3-642-15824-2, 978-3-642-15824-7}
+\showURL{%
+\url{http://dl.acm.org/citation.cfm?id=1886436.1886447}}
+
+
+\bibitem[\protect\citeauthoryear{Su, Delbracio, Wang, Sapiro, Heidrich, and
+  Wang}{Su et~al\mbox{.}}{2016}]%
+        {su2016deep}
+\bibfield{author}{\bibinfo{person}{Shuochen Su}, \bibinfo{person}{Mauricio
+  Delbracio}, \bibinfo{person}{Jue Wang}, \bibinfo{person}{Guillermo Sapiro},
+  \bibinfo{person}{Wolfgang Heidrich}, {and} \bibinfo{person}{Oliver Wang}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Deep Video Deblurring}.
+\newblock \bibinfo{journal}{{\em arXiv preprint arXiv:1611.08387\/}}
+  (\bibinfo{year}{2016}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ulyanov, Vedaldi, and Lempitsky}{Ulyanov
+  et~al\mbox{.}}{2016}]%
+        {Ulyanov2016InstanceNT}
+\bibfield{author}{\bibinfo{person}{Dmitry Ulyanov}, \bibinfo{person}{Andrea
+  Vedaldi}, {and} \bibinfo{person}{Victor~S. Lempitsky}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Instance Normalization: The Missing Ingredient for
+  Fast Stylization}.
+\newblock \bibinfo{journal}{{\em CoRR\/}}  \bibinfo{volume}{abs/1607.08022}
+  (\bibinfo{year}{2016}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Vincent and Francesco}{Vincent and
+  Francesco}{2016}]%
+        {arXiv:1603.07285}
+\bibfield{author}{\bibinfo{person}{Dumoulin Vincent} {and}
+  \bibinfo{person}{Visin Francesco}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{A guide to convolution arithmetic for deep
+  learning}. In \bibinfo{booktitle}{{\em arXiv:1603.07285}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Xu, Price, Cohen, and Huang}{Xu
+  et~al\mbox{.}}{2017}]%
+        {deepmatting}
+\bibfield{author}{\bibinfo{person}{Ning Xu}, \bibinfo{person}{Brian Price},
+  \bibinfo{person}{Scott Cohen}, {and} \bibinfo{person}{Thomas Huang}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Deep Image Matting}.
+\newblock \bibinfo{journal}{{\em CVPR\/}} (\bibinfo{year}{2017}).
+\newblock
+
+
+\end{thebibliography}

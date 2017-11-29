@@ -1,0 +1,28 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: survey.aux
+The style file: ACM-Reference-Format.bst
+Database file #1: bib.bib
+Warning--I didn't find a database entry for "imagenet"
+Warning--I didn't find a database entry for ""
+Warning--page numbers missing in both pages and numpages fields in journals/corr/ClevertUH15
+Warning--empty publisher in GlorotAISTATS2010
+Warning--empty address in GlorotAISTATS2010
+Warning--empty year in Hinton_rectifiedlinear
+Warning--empty address in icml2015_ioffe15
+Warning--empty address in NIPS2012_4824
+Warning--numpages field, but no articleno or eid field, in LeCun:1989:BAH:1351079.1351090
+Warning--empty publisher in Maas13rectifiernonlinearities
+Warning--empty address in Maas13rectifiernonlinearities
+Warning--page numbers missing in both pages and numpages fields in Maas13rectifiernonlinearities
+Warning--empty publisher in NIPS2016
+Warning--empty address in NIPS2016
+Warning--page numbers missing in both pages and numpages fields in dcgan
+Warning--numpages field, but no articleno or eid field, in Scherer:2010:EPO:1886436.1886447
+Warning--no number and no volume in su2016deep
+Warning--page numbers missing in both pages and numpages fields in su2016deep
+Warning--page numbers missing in both pages and numpages fields in Ulyanov2016InstanceNT
+Warning--empty publisher in arXiv:1603.07285
+Warning--empty address in arXiv:1603.07285
+Warning--page numbers missing in both pages and numpages fields in arXiv:1603.07285
+Warning--no number and no volume in deepmatting
+Warning--page numbers missing in both pages and numpages fields in deepmatting
+(There were 24 warnings)

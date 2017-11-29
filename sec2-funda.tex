@@ -1,0 +1,80 @@
+\section{Fundamental Techniques}
+\label{sec:funda}
+
+In this section, we first review basic building blocks of deep learning layer-wisely in Section~\ref{ssec:layers}, and then discuss several widely adopted network architectures in Section~\ref{ssec:architecture}.
+
+\subsection{Basic Layers}
+\label{ssec:layers}
+
+Nowadays, deep learning frameworks are highly modularize, such that networks can be constructed by a set of interacting layers. 
+
+\textbf{Convolution layer} \cite{NIPS2012_4824} applies the convolution operation over an input signal composed of several channels, which is especially essential for multimedia data. 
+%In most cases, \emph{stride} and \emph{padding} are adopted to adapt different input/output sizes. 
+Similarly,  transposed convolution\footnote{In some literatures, it is also refered as fractionally-strided convolution or deconvolution.} goes in the opposite direction of a normal convolution \cite{arXiv:1603.07285}, which is widely adopted for upsampling, e.g., deblur \cite{su2016deep}, matting \cite{deepmatting}, super resolution \cite{}, image generation \cite{dcgan} and restoration \cite{NIPS2016}.
+%A convolution can be written as a product with sparse projection matrix $\mathbf{P}$ , while transposed convolution defined by $\mathbf{P}^T$ is widely adopted for upsampling, e.g., deblur \cite{su2016deep}, matting \cite{deepmatting}, super resolution \cite{}, image generation \cite{dcgan} and restoration \cite{NIPS2016}.
+
+%One can transform something that has the shape of the output of some convolution to something that has the shape of its input, while maintaining a connectivity pattern that is compatible with convolution.
+
+
+
+
+\textbf{Activation layers} introduce the nonlinearity into the network, which have demonstrated their superior performance in multimedia analytics. Traditional \textbf{Sigmoid} is best known for its continuity, recent \textbf{Relu}, \textbf{Noisy ReLU} \cite{Hinton_rectifiedlinear} \textbf{Leaky Relu} \cite{Maas13rectifiernonlinearities}, \textbf{ELU} \cite{journals/corr/ClevertUH15} are all derived from the rectified linear unit function. 
+
+\textbf{Pooling layers} combine multiple outputs at one layer into a single output in the next layer. \textbf{Max Pooling} and \textbf{Average Pooling} \cite{Scherer:2010:EPO:1886436.1886447} are best known for their simplicity. 
+
+
+\textbf{Normalization layers} are critical in stabilizing the training process and accelerating the convergence speed. \textbf{Batch Normalization} \cite{icml2015_ioffe15} reduces internal covariate shift in neural networks, which leads to faster convergence. Recent \textbf{Instance Normalization} \cite{Ulyanov2016InstanceNT} suits better for stylization tasks. 
+
+
+Deep networks are also convenient in defining diverse loss layers, ranging from \textbf{L1}, \textbf{MSE}, \textbf{CrossEntropy}, \textbf{Negative log likelihood} losses to \textbf{KL-divergence}, \textbf{Triplet Ranking} losses. 
+
+
+Dropout layer: 
+
+Sparse layer: 
+
+
+
+
+% initializaiton
+
+The most common initialization method includes 
+Xavier initialization \cite{GlorotAISTATS2010}
+
+% optimization
+
+
+
+
+\subsection{Network Architectures}
+\label{ssec:architecture}
+
+\subsubsection{Convolutional Neural Networks (CNN)} \hfill 
+
+Convolutional neural network is first introduced decades ago \cite{LeCun:1989:BAH:1351079.1351090}. Due to recent advancement of efficient computation hardware (GPUs) and abundant training data \cite{imagenet}. 
+
+\cite{NIPS2012_4824}
+
+deep CNNs have recently shown an explosive popularity
+partially due to its success in image classification [18], [25].
+They have also been successfully applied to other fields, such as object detection [33], [50], face recognition
+%[38], and pedestrian detection [34]. Several factors are of central importance in this progress: (i) the efficient training implementation on modern powerful GPUs [25], (ii) the proposal of the rectified linear unit (ReLU) [32] which makes convergence much faster while still presents good quality [25], and (iii) the easy access to an abundance of data (like ImageNet [9]) for training larger models. 
+
+
+
+
+\subsubsection{Recurrent Neural Networks (RNN)} \hfill 
+
+Besides the feed-forward network architecture, another big branch is based on the recurrent structures \emph{RNN}, which suffers from the vanishing \& exploding gradient problem. \textbf{LSTM} captures the long-term dependencies with the cell state. \textbf{GRU} further combines the forget and input gates into an update gate, and mergers the cell state and hidden state. 
+
+\subsubsection{Generative Adversarial Networks}\hfill 
+
+Fully-connected layer\footnote{Also known as linear layer} connects all nodes in a layer to all nodes in its next layer.
+
+
+%\subsubsection{Pooling Layers}\hfill 
+
+
+
+
+
