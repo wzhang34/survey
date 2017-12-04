@@ -1,22 +1,68 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: survey.aux
 The style file: ACM-Reference-Format.bst
 Database file #1: bib.bib
-Warning--I didn't find a database entry for "imagenet"
-Warning--I didn't find a database entry for ""
+Repeated entry---line 413 of file bib.bib
+ : @article{dcgan
+ :               ,
+I'm skipping whatever remains of this entry
+Warning--empty publisher in wgan
+Warning--empty address in wgan
+Warning--page numbers missing in both pages and numpages fields in wgan
 Warning--page numbers missing in both pages and numpages fields in journals/corr/ClevertUH15
+Warning--empty publisher in lapgan
+Warning--empty address in lapgan
 Warning--empty publisher in GlorotAISTATS2010
 Warning--empty address in GlorotAISTATS2010
-Warning--empty year in Hinton_rectifiedlinear
+Warning--empty publisher in gan
+Warning--empty address in gan
+Warning--page numbers missing in both pages and numpages fields in journals/corr/Graves13
+Warning--can't use both author and editor fields in Han1995
+Warning--empty publisher in Han1995
+Warning--empty address in Han1995
+Warning--empty publisher in He:2015:DDR:2919332.2919814
+Warning--empty address in He:2015:DDR:2919332.2919814
 Warning--empty address in icml2015_ioffe15
+Warning--empty publisher in pix2pix
+Warning--empty address in pix2pix
+Warning--page numbers missing in both pages and numpages fields in pix2pix
+Warning--empty publisher in nvidia_celebrity
+Warning--empty address in nvidia_celebrity
+Warning--page numbers missing in both pages and numpages fields in nvidia_celebrity
+Warning--empty publisher in Kim2017LearningTD
+Warning--empty address in Kim2017LearningTD
+Warning--page numbers missing in both pages and numpages fields in Kim2017LearningTD
+Warning--page numbers missing in both pages and numpages fields in Kingma2014AdamAM
+Warning--empty publisher in NIPS2012_4824
 Warning--empty address in NIPS2012_4824
-Warning--numpages field, but no articleno or eid field, in LeCun:1989:BAH:1351079.1351090
+Warning--empty publisher in arXiv:1704.03915
+Warning--empty address in arXiv:1704.03915
+Warning--page numbers missing in both pages and numpages fields in arXiv:1704.03915
 Warning--empty publisher in Maas13rectifiernonlinearities
 Warning--empty address in Maas13rectifiernonlinearities
 Warning--page numbers missing in both pages and numpages fields in Maas13rectifiernonlinearities
 Warning--empty publisher in NIPS2016
 Warning--empty address in NIPS2016
+Warning--page numbers missing in both pages and numpages fields in NIPS2016
+Warning--empty publisher in cgan
+Warning--empty address in cgan
+Warning--page numbers missing in both pages and numpages fields in cgan
+Warning--empty publisher in Nair:2010:RLU:3104322.3104425
+Warning--empty address in Nair:2010:RLU:3104322.3104425
+Warning--empty publisher in flower
+Warning--empty address in flower
+Warning--page numbers missing in both pages and numpages fields in flower
+Warning--no number and no volume in auxgan
+Warning--page numbers missing in both pages and numpages fields in auxgan
 Warning--page numbers missing in both pages and numpages fields in dcgan
-Warning--numpages field, but no articleno or eid field, in Scherer:2010:EPO:1886436.1886447
+Warning--empty publisher in icml16
+Warning--empty address in icml16
+Warning--page numbers missing in both pages and numpages fields in icml16
+Warning--empty booktitle in Rumelhart:1986:LIR:104279.104293
+Warning--empty publisher in Rumelhart:1986:LIR:104279.104293
+Warning--empty address in Rumelhart:1986:LIR:104279.104293
+Warning--empty booktitle in Rumelhart:1988:LRB:65669.104451
+Warning--empty publisher in Scherer:2010:EPO:1886436.1886447
+Warning--empty address in Scherer:2010:EPO:1886436.1886447
 Warning--no number and no volume in su2016deep
 Warning--page numbers missing in both pages and numpages fields in su2016deep
 Warning--page numbers missing in both pages and numpages fields in Ulyanov2016InstanceNT
@@ -25,4 +71,13 @@ Warning--empty address in arXiv:1603.07285
 Warning--page numbers missing in both pages and numpages fields in arXiv:1603.07285
 Warning--no number and no volume in deepmatting
 Warning--page numbers missing in both pages and numpages fields in deepmatting
-(There were 24 warnings)
+Warning--no journal in Yi2017DualGANUD
+Warning--no number and no volume in Yi2017DualGANUD
+Warning--page numbers missing in both pages and numpages fields in Yi2017DualGANUD
+Warning--empty publisher in stackgan
+Warning--empty address in stackgan
+Warning--page numbers missing in both pages and numpages fields in stackgan
+Warning--empty publisher in CycleGAN2017
+Warning--empty address in CycleGAN2017
+Warning--page numbers missing in both pages and numpages fields in CycleGAN2017
+(There was 1 error message)

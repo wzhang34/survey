@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{14}
+\begin{thebibliography}{39}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -37,6 +37,16 @@
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
 
+\bibitem[\protect\citeauthoryear{Arjovsky, Chintala, and Bottou}{Arjovsky
+  et~al\mbox{.}}{2017}]%
+        {wgan}
+\bibfield{author}{\bibinfo{person}{M. Arjovsky}, \bibinfo{person}{S. Chintala},
+  {and} \bibinfo{person}{L. Bottou}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Wasserstein GAN}. In \bibinfo{booktitle}{{\em
+  arXiv:1701.07875}}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Clevert, Unterthiner, and Hochreiter}{Clevert
   et~al\mbox{.}}{2015}]%
         {journals/corr/ClevertUH15}
@@ -48,8 +58,19 @@
 \newblock \bibinfo{journal}{{\em CoRR\/}}  \bibinfo{volume}{abs/1511.07289}
   (\bibinfo{year}{2015}).
 \newblock
-\showURL{%
-\url{http://dblp.uni-trier.de/db/journals/corr/corr1511.html#ClevertUH15}}
+
+
+\bibitem[\protect\citeauthoryear{Denton, Chintala, szlam, and Fergus}{Denton
+  et~al\mbox{.}}{2015}]%
+        {lapgan}
+\bibfield{author}{\bibinfo{person}{Emily~L Denton}, \bibinfo{person}{Soumith
+  Chintala}, \bibinfo{person}{arthur szlam}, {and} \bibinfo{person}{Rob
+  Fergus}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Deep Generative Image Models using a Laplacian
+  Pyramid of Adversarial Networks}.
+\newblock In \bibinfo{booktitle}{{\em Advances in Neural Information Processing
+  Systems 28}}. \bibinfo{pages}{1486--1494}.
+\newblock
 
 
 \bibitem[\protect\citeauthoryear{Glorot and Bengio}{Glorot and Bengio}{2010}]%
@@ -64,13 +85,67 @@
 \newblock
 
 
-\bibitem[\protect\citeauthoryear{Hinton}{Hinton}{[n. d.]}]%
-        {Hinton_rectifiedlinear}
-\bibfield{author}{\bibinfo{person}{Geoffrey~E. Hinton}.} \bibinfo{year}{[n.
-  d.]}\natexlab{}.
-\newblock \bibinfo{title}{Rectified Linear Units Improve Restricted Boltzmann
-  Machines Vinod Nair}.
-\newblock   (\bibinfo{year}{[n. d.]}).
+\bibitem[\protect\citeauthoryear{Goodfellow, Pouget{-}Abadie, Mirza, Xu,
+  Warde{-}Farley, Ozair, Courville, and Bengio}{Goodfellow
+  et~al\mbox{.}}{2014}]%
+        {gan}
+\bibfield{author}{\bibinfo{person}{Ian~J. Goodfellow}, \bibinfo{person}{Jean
+  Pouget{-}Abadie}, \bibinfo{person}{Mehdi Mirza}, \bibinfo{person}{Bing Xu},
+  \bibinfo{person}{David Warde{-}Farley}, \bibinfo{person}{Sherjil Ozair},
+  \bibinfo{person}{Aaron~C. Courville}, {and} \bibinfo{person}{Yoshua Bengio}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Generative Adversarial Nets}. In
+  \bibinfo{booktitle}{{\em Advances in Neural Information Processing Systems}}.
+  \bibinfo{pages}{2672--2680}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Graves}{Graves}{2013}]%
+        {journals/corr/Graves13}
+\bibfield{author}{\bibinfo{person}{Alex Graves}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Generating Sequences With Recurrent Neural
+  Networks.}
+\newblock \bibinfo{journal}{{\em CoRR\/}}  \bibinfo{volume}{abs/1308.0850}
+  (\bibinfo{year}{2013}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hahnloser, Sarpeshkar, Mahowald, Douglas, and
+  Seung}{Hahnloser et~al\mbox{.}}{2000}]%
+        {Hahnloser2000DigitalSA}
+\bibfield{author}{\bibinfo{person}{Richard H.~R. Hahnloser},
+  \bibinfo{person}{Rahul Sarpeshkar}, \bibinfo{person}{Misha Mahowald},
+  \bibinfo{person}{Rodney~J. Douglas}, {and} \bibinfo{person}{H.~Sebastian
+  Seung}.} \bibinfo{year}{2000}\natexlab{}.
+\newblock \showarticletitle{Digital selection and analogue amplification
+  coexist in a cortex-inspired silicon circuit.}
+\newblock \bibinfo{journal}{{\em Nature\/}}  \bibinfo{volume}{405 6789}
+  (\bibinfo{year}{2000}), \bibinfo{pages}{947--51}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Han and Moraga}{Han and Moraga}{1995}]%
+        {Han1995}
+\bibfield{author}{\bibinfo{person}{Jun Han} {and} \bibinfo{person}{Claudio
+  Moraga}.} \bibinfo{year}{1995}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em The influence of the sigmoid function
+  parameters on the speed of backpropagation learning}}.
+\newblock \bibinfo{pages}{195--201}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{He, Zhang, Ren, and Sun}{He
+  et~al\mbox{.}}{2015}]%
+        {He:2015:DDR:2919332.2919814}
+\bibfield{author}{\bibinfo{person}{Kaiming He}, \bibinfo{person}{Xiangyu
+  Zhang}, \bibinfo{person}{Shaoqing Ren}, {and} \bibinfo{person}{Jian Sun}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Delving Deep into Rectifiers: Surpassing
+  Human-Level Performance on ImageNet Classification}. In
+  \bibinfo{booktitle}{{\em Proceedings of the 2015 IEEE International
+  Conference on Computer Vision (ICCV)}} {\em (\bibinfo{series}{ICCV '15})}.
+  \bibinfo{pages}{1026--1034}.
 \newblock
 
 
@@ -81,12 +156,51 @@
 \newblock \showarticletitle{Batch Normalization: Accelerating Deep Network
   Training by Reducing Internal Covariate Shift}. In \bibinfo{booktitle}{{\em
   Proceedings of the 32nd International Conference on Machine Learning
-  (ICML-15)}}, \bibfield{editor}{\bibinfo{person}{David Blei} {and}
-  \bibinfo{person}{Francis Bach}} (Eds.). \bibinfo{publisher}{JMLR Workshop and
-  Conference Proceedings}, \bibinfo{pages}{448--456}.
+  (ICML-15)}}. \bibinfo{publisher}{JMLR Workshop and Conference Proceedings},
+  \bibinfo{pages}{448--456}.
 \newblock
-\showURL{%
-\url{http://jmlr.org/proceedings/papers/v37/ioffe15.pdf}}
+
+
+\bibitem[\protect\citeauthoryear{Isola, Zhu, and T.~Zhou}{Isola
+  et~al\mbox{.}}{2016}]%
+        {pix2pix}
+\bibfield{author}{\bibinfo{person}{P. Isola}, \bibinfo{person}{J. Zhu}, {and}
+  \bibinfo{person}{A.~A.~Efros T.~Zhou}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Image-to-Image Translation with Conditional
+  Adversarial Networks}. In \bibinfo{booktitle}{{\em arXiv:1611.07004}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Karras, Aila, Laine, and Lehtinen}{Karras
+  et~al\mbox{.}}{2017}]%
+        {nvidia_celebrity}
+\bibfield{author}{\bibinfo{person}{Tero Karras}, \bibinfo{person}{Timo Aila},
+  \bibinfo{person}{Samuli Laine}, {and} \bibinfo{person}{Jaakko Lehtinen}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Progressive Growing of GANs for Improved Quality,
+  Stability, and Variation}. In \bibinfo{booktitle}{{\em arXiv:1710.10196v2}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kim, Cha, Kim, Lee, and Kim}{Kim
+  et~al\mbox{.}}{2017}]%
+        {Kim2017LearningTD}
+\bibfield{author}{\bibinfo{person}{Taeksoo Kim}, \bibinfo{person}{Moonsu Cha},
+  \bibinfo{person}{Hyunsoo Kim}, \bibinfo{person}{Jung~Kwon Lee}, {and}
+  \bibinfo{person}{Jiwon Kim}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Learning to Discover Cross-Domain Relations with
+  Generative Adversarial Networks}. In \bibinfo{booktitle}{{\em ICML}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kingma and Ba}{Kingma and Ba}{2014}]%
+        {Kingma2014AdamAM}
+\bibfield{author}{\bibinfo{person}{Diederik~P. Kingma} {and}
+  \bibinfo{person}{Jimmy Ba}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Adam: A Method for Stochastic Optimization}.
+\newblock \bibinfo{journal}{{\em CoRR\/}}  \bibinfo{volume}{abs/1412.6980}
+  (\bibinfo{year}{2014}).
+\newblock
 
 
 \bibitem[\protect\citeauthoryear{Krizhevsky, Sutskever, and Hinton}{Krizhevsky
@@ -98,10 +212,18 @@
 \newblock \showarticletitle{ImageNet Classification with Deep Convolutional
   Neural Networks}.
 \newblock In \bibinfo{booktitle}{{\em Advances in Neural Information Processing
-  Systems 25}}, \bibfield{editor}{\bibinfo{person}{F.~Pereira},
-  \bibinfo{person}{C.~J.~C. Burges}, \bibinfo{person}{L.~Bottou}, {and}
-  \bibinfo{person}{K.~Q. Weinberger}} (Eds.). \bibinfo{publisher}{Curran
-  Associates, Inc.}, \bibinfo{pages}{1097--1105}.
+  Systems 25}}. \bibinfo{pages}{1097--1105}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Lai, Huang, Ahuja, and Yang}{Lai
+  et~al\mbox{.}}{2017}]%
+        {arXiv:1704.03915}
+\bibfield{author}{\bibinfo{person}{Wei-Sheng Lai}, \bibinfo{person}{Jia-Bin
+  Huang}, \bibinfo{person}{Narendra Ahuja}, {and} \bibinfo{person}{Ming-Hsuan
+  Yang}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Deep Laplacian Pyramid Networks for Fast and
+  Accurate Super-Resolution}. In \bibinfo{booktitle}{{\em arXiv:1704.03915}}.
 \newblock
 
 
@@ -119,8 +241,6 @@
   \bibinfo{pages}{541--551}.
 \newblock
 \showISSN{0899-7667}
-\showDOI{%
-\url{https://doi.org/10.1162/neco.1989.1.4.541}}
 
 
 \bibitem[\protect\citeauthoryear{Maas, Hannun, and Ng}{Maas
@@ -145,9 +265,66 @@
   \bibinfo{booktitle}{{\em Advances in Neural Information Processing Systems
   (NIPS'16)}}.
 \newblock
-\showeprint{1603.09056}
+
+
+\bibitem[\protect\citeauthoryear{Mirza and Osindero}{Mirza and
+  Osindero}{2014}]%
+        {cgan}
+\bibfield{author}{\bibinfo{person}{M. Mirza} {and} \bibinfo{person}{S.
+  Osindero}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Conditional Generative Adversarial Nets}. In
+  \bibinfo{booktitle}{{\em arXiv:1411.1784}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Nair and Hinton}{Nair and Hinton}{2010}]%
+        {Nair:2010:RLU:3104322.3104425}
+\bibfield{author}{\bibinfo{person}{Vinod Nair} {and}
+  \bibinfo{person}{Geoffrey~E. Hinton}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Rectified Linear Units Improve Restricted Boltzmann
+  Machines}. In \bibinfo{booktitle}{{\em Proceedings of the 27th International
+  Conference on International Conference on Machine Learning}} {\em
+  (\bibinfo{series}{ICML'10})}. \bibinfo{pages}{807--814}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Nilsback and Zisserman}{Nilsback and
+  Zisserman}{2008}]%
+        {flower}
+\bibfield{author}{\bibinfo{person}{M-E. Nilsback} {and} \bibinfo{person}{A.
+  Zisserman}.} \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Automated Flower Classification over a Large Number
+  of Classes}. In \bibinfo{booktitle}{{\em Proceedings of the Indian Conference
+  on Computer Vision, Graphics and Image Processing}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Odena, Olah, and Shlens}{Odena
+  et~al\mbox{.}}{2016}]%
+        {auxgan}
+\bibfield{author}{\bibinfo{person}{Augustus Odena},
+  \bibinfo{person}{Christopher Olah}, {and} \bibinfo{person}{Jonathon Shlens}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Conditional Image Synthesis With Auxiliary
+  Classifier GANs}.
+\newblock \bibinfo{journal}{{\em arXiv\/}} (\bibinfo{year}{2016}).
+\newblock
 \showURL{%
-\url{http://papers.nips.cc/paper/6172-image-restoration-using-very-deep-convolutional-encoder-decoder-networks-with-symmetric-skip-connections.pdf}}
+\url{https://arxiv.org/abs/1610.09585}}
+
+
+\bibitem[\protect\citeauthoryear{Polyak and Juditsky}{Polyak and
+  Juditsky}{1992}]%
+        {Polyak:1992:ASA:131092.131098}
+\bibfield{author}{\bibinfo{person}{B.~T. Polyak} {and} \bibinfo{person}{A.~B.
+  Juditsky}.} \bibinfo{year}{1992}\natexlab{}.
+\newblock \showarticletitle{Acceleration of Stochastic Approximation by
+  Averaging}.
+\newblock \bibinfo{journal}{{\em SIAM J. Control Optim.\/}}
+  \bibinfo{volume}{30}, \bibinfo{number}{4} (\bibinfo{date}{July}
+  \bibinfo{year}{1992}), \bibinfo{pages}{838--855}.
+\newblock
+\showISSN{0363-0129}
 
 
 \bibitem[\protect\citeauthoryear{Radford, Metz, and Chintala}{Radford
@@ -160,8 +337,75 @@
 \newblock \bibinfo{journal}{{\em CoRR\/}}  \bibinfo{volume}{abs/1511.06434}
   (\bibinfo{year}{2015}).
 \newblock
-\showURL{%
-\url{http://arxiv.org/abs/1511.06434}}
+
+
+\bibitem[\protect\citeauthoryear{Reed, Akata, Yan, Logeswaran, Schiele, and
+  Lee}{Reed et~al\mbox{.}}{2016}]%
+        {icml16}
+\bibfield{author}{\bibinfo{person}{Scott Reed}, \bibinfo{person}{Zeynep Akata},
+  \bibinfo{person}{Xinchen Yan}, \bibinfo{person}{Lajanugen Logeswaran},
+  \bibinfo{person}{Bernt Schiele}, {and} \bibinfo{person}{Honglak Lee}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Generative Adversarial Text-to-Image Synthesis}. In
+  \bibinfo{booktitle}{{\em Proceedings of The 33rd International Conference on
+  Machine Learning}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Rumelhart, Hinton, and Williams}{Rumelhart
+  et~al\mbox{.}}{1986}]%
+        {Rumelhart:1986:LIR:104279.104293}
+\bibfield{author}{\bibinfo{person}{D.~E. Rumelhart}, \bibinfo{person}{G.~E.
+  Hinton}, {and} \bibinfo{person}{R.~J. Williams}.}
+  \bibinfo{year}{1986}\natexlab{}.
+\newblock \showarticletitle{Parallel Distributed Processing: Explorations in
+  the Microstructure of Cognition, Vol. 1}.
+\newblock Chapter Learning Internal Representations by Error Propagation,
+  \bibinfo{pages}{318--362}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Rumelhart, Hinton, and Williams}{Rumelhart
+  et~al\mbox{.}}{1988}]%
+        {Rumelhart:1988:LRB:65669.104451}
+\bibfield{author}{\bibinfo{person}{David~E. Rumelhart},
+  \bibinfo{person}{Geoffrey~E. Hinton}, {and} \bibinfo{person}{Ronald~J.
+  Williams}.} \bibinfo{year}{1988}\natexlab{}.
+\newblock \showarticletitle{Neurocomputing: Foundations of Research}.
+\newblock \bibinfo{publisher}{MIT Press}, \bibinfo{address}{Cambridge, MA,
+  USA}, Chapter Learning Representations by Back-propagating Errors,
+  \bibinfo{pages}{696--699}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Russakovsky, Deng, Su, Krause, Satheesh, Ma,
+  Huang, Karpathy, Khosla, Bernstein, Berg, and Fei-Fei}{Russakovsky
+  et~al\mbox{.}}{2015}]%
+        {ILSVRC15}
+\bibfield{author}{\bibinfo{person}{Olga Russakovsky}, \bibinfo{person}{Jia
+  Deng}, \bibinfo{person}{Hao Su}, \bibinfo{person}{Jonathan Krause},
+  \bibinfo{person}{Sanjeev Satheesh}, \bibinfo{person}{Sean Ma},
+  \bibinfo{person}{Zhiheng Huang}, \bibinfo{person}{Andrej Karpathy},
+  \bibinfo{person}{Aditya Khosla}, \bibinfo{person}{Michael Bernstein},
+  \bibinfo{person}{Alexander~C. Berg}, {and} \bibinfo{person}{Li Fei-Fei}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{{ImageNet Large Scale Visual Recognition
+  Challenge}}.
+\newblock \bibinfo{journal}{{\em International Journal of Computer Vision
+  (IJCV)\/}} \bibinfo{volume}{115}, \bibinfo{number}{3} (\bibinfo{year}{2015}),
+  \bibinfo{pages}{211--252}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Saad}{Saad}{1998}]%
+        {Saad:1999:OLN:304710}
+\bibfield{editor}{\bibinfo{person}{David Saad}} (Ed.).
+  \bibinfo{year}{1998}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em On-line Learning in Neural Networks}}.
+\newblock \bibinfo{publisher}{Cambridge University Press},
+  \bibinfo{address}{New York, NY, USA}.
+\newblock
+\showISBNx{0-521-65263-4}
 
 
 \bibitem[\protect\citeauthoryear{Scherer, M\"{u}ller, and Behnke}{Scherer
@@ -174,12 +418,8 @@
   Architectures for Object Recognition}. In \bibinfo{booktitle}{{\em
   Proceedings of the 20th International Conference on Artificial Neural
   Networks: Part III}} {\em (\bibinfo{series}{ICANN'10})}.
-  \bibinfo{publisher}{Springer-Verlag}, \bibinfo{address}{Berlin, Heidelberg},
   \bibinfo{pages}{92--101}.
 \newblock
-\showISBNx{3-642-15824-2, 978-3-642-15824-7}
-\showURL{%
-\url{http://dl.acm.org/citation.cfm?id=1886436.1886447}}
 
 
 \bibitem[\protect\citeauthoryear{Su, Delbracio, Wang, Sapiro, Heidrich, and
@@ -218,6 +458,19 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Welinder, Branson, Mita, Wah, Schroff,
+  Belongie, and Perona}{Welinder et~al\mbox{.}}{2010}]%
+        {cub}
+\bibfield{author}{\bibinfo{person}{P. Welinder}, \bibinfo{person}{S. Branson},
+  \bibinfo{person}{T. Mita}, \bibinfo{person}{C. Wah}, \bibinfo{person}{F.
+  Schroff}, \bibinfo{person}{S. Belongie}, {and} \bibinfo{person}{P. Perona}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em {Caltech-UCSD Birds 200}}}.
+\newblock \bibinfo{type}{{T}echnical {R}eport} CNS-TR-2010-001.
+  \bibinfo{institution}{California Institute of Technology}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Xu, Price, Cohen, and Huang}{Xu
   et~al\mbox{.}}{2017}]%
         {deepmatting}
@@ -226,6 +479,42 @@
   \bibinfo{year}{2017}\natexlab{}.
 \newblock \showarticletitle{Deep Image Matting}.
 \newblock \bibinfo{journal}{{\em CVPR\/}} (\bibinfo{year}{2017}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Yi, Zhang, Tan, and Gong}{Yi
+  et~al\mbox{.}}{2017}]%
+        {Yi2017DualGANUD}
+\bibfield{author}{\bibinfo{person}{Zili Yi}, \bibinfo{person}{Hao Zhang},
+  \bibinfo{person}{Ping Tan}, {and} \bibinfo{person}{Minglun Gong}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{DualGAN: Unsupervised Dual Learning for
+  Image-to-Image Translation}.
+\newblock  (\bibinfo{year}{2017}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Zhang, Xu, Li, Zhang, Huang, Wang, and
+  Metaxas}{Zhang et~al\mbox{.}}{2017}]%
+        {stackgan}
+\bibfield{author}{\bibinfo{person}{H. Zhang}, \bibinfo{person}{T. Xu},
+  \bibinfo{person}{H. Li}, \bibinfo{person}{S. Zhang}, \bibinfo{person}{X.
+  Huang}, \bibinfo{person}{X. Wang}, {and} \bibinfo{person}{D. Metaxas}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{StackGAN: Text to Photo-realistic Image Synthesis
+  with Stacked Generative Adversarial Networks}. In \bibinfo{booktitle}{{\em
+  arXiv:1612.03242}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Zhu, Park, Isola, and Efros}{Zhu
+  et~al\mbox{.}}{2017}]%
+        {CycleGAN2017}
+\bibfield{author}{\bibinfo{person}{Jun-Yan Zhu}, \bibinfo{person}{Taesung
+  Park}, \bibinfo{person}{Phillip Isola}, {and} \bibinfo{person}{Alexei~A
+  Efros}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Unpaired Image-to-Image Translation using
+  Cycle-Consistent Adversarial Networks}. In \bibinfo{booktitle}{{\em ICCV}}.
 \newblock
 
 
